@@ -1,1 +1,12 @@
-Hello, world!
+<form action="/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="<%= ENV['PUBLISHABLE_KEY'] %>"
+    data-amount="2000"
+    data-name="Stripe"
+    data-description="2 widgets"
+    data-image="/img/documentation/checkout/marketplace.png"
+    data-locale="auto"
+    data-zip-code="true">
+  </script>
+</form>
