@@ -2,15 +2,9 @@
 
 A blank slate for creating exciting and innovative projects
 
-### Getting started
-
-First you'll need to install a whole bunch of prerequisites:
-
-* bundler: `gem install bundler`
-
 ### Using blank-slate
 
-Now you're ready to play with ruby!
+Open Terminal and run the commands below:
 
 * Grab a copy of the project: `git clone https://github.com/briancollins/blank-slate.git`
 * Change directory into the project: `cd blank-slate`
