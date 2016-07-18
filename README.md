@@ -6,11 +6,6 @@ A blank slate for creating exciting and innovative projects
 
 First you'll need to install a whole bunch of prerequisites:
 
-* Homebrew: http://brew.sh/ `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-* git: `brew install git`
-* rbenv: `git clone https://github.com/rbenv/rbenv.git ~/.rbenv; echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile; source ~/.bash_profile`
-* ruby-build: `brew install ruby-build`
-* ruby 2.2: `rbenv install 2.2.4; ln -s 2.2.4 ~/.rbenv/versions/2.2; rbenv global 2.2`
 * bundler: `gem install bundler`
 
 ### Using blank-slate
