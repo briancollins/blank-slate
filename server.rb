@@ -5,5 +5,5 @@ require 'dotenv'
 Dotenv.load
 
 get '/' do
-  "Hello!"
+  erb :index
 end
